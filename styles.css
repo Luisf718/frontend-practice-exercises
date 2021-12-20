@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 65.5%;
+    font-family: sans-serif;
+}
+body {
+    background-color: rgb(13 26 45);
+}
+.container_card {
+    position: relative;
+    padding: 20px;
+    top: 50px;
+    max-width: 280px;
+    height: 470px;
+    margin: 0 auto;
+    background-color: rgb(20 39 64);
+    border-radius: 15px;
+}
+.container_image {
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.image_main {
+    width: 100%;
+    height: 100%;
+}
+article {
+    margin-top: 15px;
+}
+article h2 {
+    color: white;
+    font-size: 2rem;
+}
+article p {
+    color: gray;
+    margin-top: 15px;
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
+.container_price {
+    position: relative;
+    display: flex;
+    margin-top: 20px;
+}
+.icon_eth {
+    display: inline-block;
+    width: 10px;
+    height: 15px;
+    background-image: url("/assets/icons/icon-ethereum.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.price_eth {
+    font-size: 1.3rem;
+    font-weight: 200;
+    color: aqua;
+    margin-right: 35px;
+}
+.icon_clock {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-image: url('/assets/icons/icon-clock.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.date {
+    font-size: 1.3rem;
+    color:gray;
+}
+.container_author {
+    position: relative;
+    display: flex;
+    margin-top: 20px;
+    border-top: 5px;
+    border-color: gray;
+}
+.container_photo_author {
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.photo_author {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.container_author p {
+    color: gray;
+    margin-left: 15px;
+    padding-top: 8px;
+    font-size: 1.4rem;
+}
+#author {
+    color: white;
+}
